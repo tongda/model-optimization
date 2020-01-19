@@ -12,6 +12,9 @@ making the project contributor-friendly
 ([issue](https://github.com/tensorflow/model-optimization/issues/131)), and
 having reproducible results.
 
+Following this process, you will become the [owner of the
+technique](http://github.com/tensorflow/model-optimization/tree/master/community/rfcs/20200124-tfmot-ownership.md).
+
 
 ## Contribution Components
 
@@ -21,6 +24,8 @@ having reproducible results.
      techniques to provide the best user experience.
    * consider the end-to-end experience for the user of your technique.
    * be prepared for a potential design discussion.
+   * consider [what ownership
+     involves](http://github.com/tensorflow/model-optimization/tree/master/community/rfcs/20200124-tfmot-ownership.md) and which terms of service interests you
 
 2. Provide experimental results that demonstrate benefits to end-users across
    models and tasks. This is probably the main criteria for us to consider, so
