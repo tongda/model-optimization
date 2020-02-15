@@ -59,10 +59,11 @@ py_test(
         "model_transformer_test.py",
     ],
     python_version = "PY3",
-    srcs_version = "PY2AND3",
+    # srcs_version = "PY2AND3",
     visibility = ["//visibility:public"],
     deps = [
         ":model_transformer",
+        # absl/testing:parameterized dep1,
         # numpy dep1,
         # tensorflow dep1,
     ],
