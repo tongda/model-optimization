@@ -61,7 +61,13 @@ class TFLiteQuantizeLayoutTransform(
     transforms = [
         tflite_transforms.InputLayerQuantize(),
         tflite_transforms.Conv2DBatchNormReLUQuantize(),
+        tflite_transforms.Conv2DBatchNormActivationQuantize(),
         tflite_transforms.Conv2DBatchNormQuantize(),
+        tflite_transforms.ConcatTransform6Inputs(),
+        tflite_transforms.ConcatTransform5Inputs(),
+        tflite_transforms.ConcatTransform4Inputs(),
+        tflite_transforms.ConcatTransform3Inputs(),
+        tflite_transforms.ConcatTransform(),
     ]
 
     return model_transformer.ModelTransformer(
